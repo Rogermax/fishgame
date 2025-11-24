@@ -11,7 +11,7 @@ const Game: React.FC = () => {
   
   // Game State Refs (mutable for Pixi loop)
   const gameState = useRef<GameState>({
-    hook: { x: CANVAS_WIDTH / 2, y: 200, state: 'idle', caughtFish: null },
+    hook: { x: CANVAS_WIDTH / 2, y: 200, state: 'idle', caughtFishes: [] },
     fishes: [],
     score: 0,
     depth: 0,

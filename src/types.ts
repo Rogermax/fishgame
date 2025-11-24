@@ -26,8 +26,8 @@ export interface GameState {
     hook: {
         x: number;
         y: number;
-        state: 'idle' | 'dropping' | 'reeling' | 'bottom_pause';
-        caughtFish: FishData | null;
+        state: 'idle' | 'dropping' | 'ascending' | 'reeling' | 'bottom_pause';
+        caughtFishes: FishData[];
     };
     fishes: FishData[];
     score: number;

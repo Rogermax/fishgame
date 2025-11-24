@@ -16,6 +16,7 @@ export const PLAYABLE_WIDTH_END = CANYON_WIDTH_END * PIXELS_PER_METER; // pixels
 export const HOOK_SIZE = 30;
 export const BASE_HOOK_SPEED = 7.8125 * 3; // Increased to compensate for zoom
 export const HOOK_LATERAL_SPEED = 12;
+export const MAX_CATCH = 5;
 
 // Walls
 export const WALL_THICKNESS = 40;
